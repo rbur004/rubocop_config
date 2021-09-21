@@ -1,0 +1,138 @@
+AllCops:
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 1024
+
+Layout/SpaceInsideParens:
+  Enabled: false
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: compact
+
+Lint/ScriptPermission:
+  Enabled: false
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/SpaceAfterNot:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_first_argument
+  
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/NonNilCheck:
+  Enabled: false
+
+Style/MultipleComparison:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+
+Style/NegatedIf:
+  EnforcedStyle: postfix
+
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
+
+Style/ZeroLengthPredicate:
+  Enabled: false
+
+Style/NestedTernaryOperator:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
+
+Style/StderrPuts:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/RedundantInterpolation:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+    Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Naming/ClassAndModuleCamelCase:
+  Enabled: false
