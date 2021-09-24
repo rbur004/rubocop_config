@@ -10,9 +10,6 @@ Layout/SpaceInsideParens:
 Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyle: compact
 
-Lint/ScriptPermission:
-  Enabled: false
-
 Layout/MultilineMethodDefinitionBraceLayout:
   EnforcedStyle: new_line
 
@@ -33,7 +30,14 @@ Layout/SpaceBeforeBlockBraces:
 
 Layout/ArgumentAlignment:
   EnforcedStyle: with_first_argument
-  
+
+Layout/ExtraSpacing:
+  AllowForAlignment: true
+  AllowBeforeTrailingComments: true
+
+Lint/ScriptPermission:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
