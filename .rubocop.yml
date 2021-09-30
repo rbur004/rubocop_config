@@ -35,6 +35,9 @@ Layout/ExtraSpacing:
 Naming/ClassAndModuleCamelCase:
   Enabled: false
 
+Naming/MethodParameterName:
+  Enabled: false
+
 Layout/ArgumentAlignment:
   EnforcedStyle: with_first_argument
 
