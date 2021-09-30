@@ -28,14 +28,20 @@ Layout/SpaceAfterNot:
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: space
 
-Layout/ArgumentAlignment:
-  EnforcedStyle: with_first_argument
-
 Layout/ExtraSpacing:
   AllowForAlignment: true
   AllowBeforeTrailingComments: true
 
+Naming/ClassAndModuleCamelCase:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_first_argument
+
 Lint/ScriptPermission:
+  Enabled: false
+
+Lint/Loop:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
@@ -108,7 +114,7 @@ Style/MutableConstant:
 Style/EmptyMethod:
   Enabled: false
 
-Naming/FileName:
+Style/FormatString:
   Enabled: false
 
 Metrics/MethodLength:
@@ -135,8 +141,11 @@ Metrics/CyclomaticComplexity:
 Metrics/ParameterLists:
   Enabled: false
 
+Metrics/BlockNesting:
+  Enabled: false
+
 Naming/HeredocDelimiterNaming:
   Enabled: false
 
-Naming/ClassAndModuleCamelCase:
+Naming/FileName:
   Enabled: false
