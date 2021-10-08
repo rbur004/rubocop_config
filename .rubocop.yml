@@ -32,10 +32,10 @@ Layout/ExtraSpacing:
   AllowForAlignment: true
   AllowBeforeTrailingComments: true
 
-Naming/ClassAndModuleCamelCase:
+Lint/AmbiguousOperatorPrecedence:
   Enabled: false
 
-Naming/MethodParameterName:
+Naming/ClassAndModuleCamelCase:
   Enabled: false
 
 Layout/ArgumentAlignment:
@@ -148,6 +148,18 @@ Metrics/BlockNesting:
   Enabled: false
 
 Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Naming/VariableName:
+  Enabled: false
+
+Naming/MethodName:
   Enabled: false
 
 Naming/FileName:
