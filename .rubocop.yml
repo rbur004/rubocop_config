@@ -35,6 +35,9 @@ Layout/ExtraSpacing:
 Lint/AmbiguousOperatorPrecedence:
   Enabled: false
 
+Lint/RedundantCopDisableDirective:
+  Enabled: false
+
 Naming/ClassAndModuleCamelCase:
   Enabled: false
 
@@ -119,6 +122,18 @@ Style/EmptyMethod:
 
 Style/FormatString:
   Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
 
 Metrics/MethodLength:
   Enabled: false
