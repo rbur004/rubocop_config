@@ -38,6 +38,9 @@ Lint/AmbiguousOperatorPrecedence:
 Lint/RedundantCopDisableDirective:
   Enabled: false
 
+Lint/NonLocalExitFromIterator:
+  Enabled: false
+
 Naming/ClassAndModuleCamelCase:
   Enabled: false
 
